@@ -10,7 +10,6 @@ import ViceChancellor from './Components/Vice-Chancellor/ViceChancellor';
 import ProViceChancellor from './Components/Pro-Vice-Chancellor/ProViceChancellor';
 import NotFound from './Components/NotFound/NotFound';
 import Footer from './Components/Footer/Footer';
-import AcademicDetail from './Components/AcademicDetail/AcademicDetail';
 
 function App() {
   return (
@@ -32,11 +31,7 @@ function App() {
           <Route path="/academic">
             <Academic></Academic>
           </Route>
-          {/* dynamic router */}
-          <Route path="/academic/:name">
-            <AcademicDetail></AcademicDetail>
-          </Route>
-
+        
           <Route path="/chancellor">
             <Chancellor></Chancellor>
           </Route>

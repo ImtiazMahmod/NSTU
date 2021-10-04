@@ -6,4 +6,4 @@
 * Adminisition Details
 * About Details
 
-### [NSTU site link](https://nstu.netlify.app/)
+### (https://nstu.netlify.app/)

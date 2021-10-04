@@ -1,3 +1,9 @@
+.cardImg{
+    height: 33vh;
+    padding: 5px;
+    border-radius: 10px;    
+}
+
 .btn-regular{
     background-color: #79B4B7;
     color: white;

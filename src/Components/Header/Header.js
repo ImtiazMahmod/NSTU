@@ -34,7 +34,7 @@ const Header = () => {
                   <NavLink className={headerStyle} to="/about">About Us</NavLink>
               
                 
-                  <NavLink className={headerStyle} to="/academic">Academic</NavLink>         
+                  <NavLink className={headerStyle} to="/academic">Academic/Service</NavLink>         
              
               
       <NavDropdown title="Administration"  id="collasible-nav-dropdown"  >

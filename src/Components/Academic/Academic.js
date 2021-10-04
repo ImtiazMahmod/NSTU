@@ -13,14 +13,14 @@ const Academic = () => {
     },[])
     return (
         <div>
-            <div className="my-3">
+            <div className="my-5">
             {
                 <Container>
                <Row xs={1} sm={2} md={2} lg={4} className="g-4">
                    {academic.map(ac => (
                  <Col key={ac.name}>
                    <Card style={{height: '100%'}}>
-                     <Card.Img className="p-1 h-50 rounded" variant="top" src={ac.img} />
+                     <Card.Img className="cardImg" variant="top" src={ac.img} />
                      <Card.Body>
                        <Card.Title>{ac.faculty? ac.faculty : ac.institute}</Card.Title>
                        <Card.Text>

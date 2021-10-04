@@ -26,7 +26,7 @@ const Chancellor = () => {
             He has a luminous political trajectory. He was the youngest member elected for the Pakistan National Assembly in 1970 from Mymensingh, member of the Constituent Assembly 1972, elected MP for the National Parliament of Bangladesh in 1973, 1986, 1991, 1996, 2001 from Bangladesh Awami League. Mr. Hamid was the Deputy Speaker of the National Parliament from 1996 to 2001 and became the Speaker of the House from July to October 2001. He was the Deputy Leader of the Opposition from 2001 to 2006. Mr. Abdul Hamid became the Speaker of the Parliament again in 2009. He became the Acting President of the Republic on 14 March 2013. Mr. Abdul Hamid has been elected the 20th President of the People’s Republic of Bangladesh unopposed on 22 April 2013.
             </p>
             <br />
-            <p>Mr. Abdul Hamid is married with 3 sons and a daughter. His interests rest on International Politics, Contemporary History and Comparative Study of Constitutions around the world.
+            <p >Mr. Abdul Hamid is married with 3 sons and a daughter. His interests rest on International Politics, Contemporary History and Comparative Study of Constitutions around the world.
 
             </p>
 

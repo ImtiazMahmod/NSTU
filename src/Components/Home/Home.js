@@ -15,34 +15,34 @@ const Home = () => {
     }, [])
  
     return (
-      <div>
+      <div  className="my-5">
         {/* carousel on campus */}
         <Campus></Campus>
 
         {/* academic  */}
-            <div className="my-5">
+            <div className="mt-5">
             {
                 <Container>
                <Row xs={1} sm={2} md={2} lg={4} className="g-4">
                {academic.slice(0,4).map(ac => (
                  <Col key={ac.name}>
                    <Card style={{height: '100%'}}>
-                     <Card.Img className="p-1 h-50 rounded" variant="top" src={ac.img} />
+                     <Card.Img className="cardImg" variant="top" src={ac.img} />
                      <Card.Body>
                        <Card.Title>{ac.faculty}</Card.Title>
                        <Card.Text>
                          Admition Fee: {ac.admissionFee}
                        </Card.Text>
                        {/* detail button */}
-                       <NavLink to={`/academic/${ac.name}`} className="btn-regular">
+                       <NavLink to={`/home/${ac.name}`} className="btn-regular">
                        Details
                       </NavLink>
                      </Card.Body>
                    </Card>
                  </Col>
                ))}
-                    </Row>
-                    </Container>
+             </Row>
+             </Container>
             }
 
             </div>
