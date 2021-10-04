@@ -5,3 +5,5 @@
 * Academic Details
 * Adminisition Details
 * About Details
+
+### [NSTU site link](https://nstu.netlify.app/)
