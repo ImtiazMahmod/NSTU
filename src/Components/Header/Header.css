@@ -1,0 +1,15 @@
+.top-header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+   justify-content: center;
+  
+}
+
+.navlink {
+    color: aliceblue;
+}
+
+.navlink:hover{
+    color: rgb(172, 172, 172);
+}

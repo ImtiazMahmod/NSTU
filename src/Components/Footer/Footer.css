@@ -1,0 +1,16 @@
+.footer{
+    background-color: rgb(49, 49, 49);    
+   
+}
+.link a{
+    text-decoration: none;
+    color: rgb(134, 134, 134);
+    padding: 2px;    
+    border-bottom: 1px dotted rgb(85, 85, 85);
+    line-height:2;
+}
+
+.link a:hover{
+    color: rgb(85, 85, 85);
+}
+

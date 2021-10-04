@@ -1,0 +1,8 @@
+[
+    {"name":"engineering-and-technology","faculty":"Faculty of Engineering and Technology","admissionFee":20000,"img":"./images/nstu-1.jpg"},
+    {"name":"science","faculty":"Faculty of Science","admissionFee":18000,"img":"./images/nstu-3.jpg"},{"name":"social-science-and-humanities","faculty":"Faculty of Social Science and Humanities","admissionFee":17000,"img":"./images/nstu-2.jpg"},
+    {"name":"business-administration","faculty":"Faculty of Business Administration","admissionFee":17500,"img":"./images/nstu-4.jpg"},
+    {"name":"education-science","faculty":"Faculty of Education Science","admissionFee":18000,"img":"./images/nstu-5.jpg"},
+    {"name":"law","faculty":"Faculty of Law","admissionFee":17000,"img":"./images/nstu-6.webp"},{"name":"information-technology","institute":"Institute of Information Technology","admissionFee":30000,"img":"./images/nstu-7.jpg"},
+    {"name":"information-science","institute":"Institute of Information Science","admissionFee":35000,"img":"./images/nstu-8.jpg"}
+]
