@@ -34,7 +34,7 @@ const Home = () => {
                          Admition Fee: {ac.admissionFee}
                        </Card.Text>
                        {/* detail button */}
-                       <NavLink to={`/home/${ac.name}`} className="btn-regular">
+                       <NavLink to={`/academy/${ac.name}`} className="btn-regular">
                        Details
                       </NavLink>
                      </Card.Body>

@@ -10,7 +10,8 @@ const Academic = () => {
         fetch('./fakedata.json')
             .then(res => res.json())
             .then(data=> setAcademic(data))
-    },[])
+    }, [])
+  
     return (
         <div>
             <div className="my-5">
@@ -27,10 +28,10 @@ const Academic = () => {
                          Admition Fee: {ac.admissionFee}
                         </Card.Text>
                                    
-                        <NavLink to={`/academic/${ac.name}`} className="btn-regular">
+                        <NavLink to={`/academy/${ac.name}`} className="btn-regular">
                        Details
-                      </NavLink>
-                                  
+                           </NavLink>
+                                                             
                      </Card.Body>
                    </Card>
                  </Col>

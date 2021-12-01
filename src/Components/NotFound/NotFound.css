@@ -1,5 +1,12 @@
 .notfound{
     background-color: rgb(59, 59, 59);
     text-align: center;
-    padding: 6% 0;
+    height: 100vh;    
+
+}
+.notFoundText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
