@@ -2,7 +2,7 @@
 
 ## About this site
 
-- Represent official University Site details.
+- Represent official University Site demo.
 - Academic Details.
 - Front End React app for university.
 - Administrative Details.

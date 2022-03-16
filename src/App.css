@@ -2,3 +2,10 @@
   font-family: poppins;
   
 }
+
+.bot {
+  position: fixed;
+  right: 2%;
+  bottom: 3%;
+  cursor: pointer;
+}

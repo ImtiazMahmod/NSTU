@@ -11,8 +11,12 @@ import ProViceChancellor from './Components/Pro-Vice-Chancellor/ProViceChancello
 import NotFound from './Components/NotFound/NotFound';
 import Footer from './Components/Footer/Footer';
 import AcademicDetails from './Components/AcademicDetails/AcademicDetails';
+import ChatBot from './ChatBot';
+import { useState } from 'react';
+
 
 function App() {
+  const [show, setShow] = useState();
   return (
     <div className="App">
       <Router>
@@ -67,9 +71,20 @@ function App() {
           <Route path="*">
             <NotFound></NotFound>
           </Route>      
-       
-        </Switch>
+         
 
+        </Switch>
+        <div className='bot'>
+          <img
+            onClick={setShow}
+            width={90}
+            src="https://i.ibb.co/Wn1KF32/chat1.png"
+            alt="support"
+          />
+        
+          <ChatBot show={show} setShow={setShow} />
+          
+        </div>
         {/* footer */}
       </Router>
     </div>
